@@ -1,0 +1,263 @@
+a {
+  margin: 0px;
+  padding: 0px;
+}
+a:hover {
+  color: #106eea;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #060a01;
+}
+
+p {
+  color: #494949;
+}
+
+.tSlow, button, a {
+  transition: all 0.3s ease-in-out;
+}
+
+.pad_100 {
+  padding: 100px 0px;
+}
+
+.center {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.main_title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #060a01;
+  margin-bottom: 25px;
+}
+
+.margen {
+  margin-bottom: 15px;
+}
+
+.text_job {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #060a01;
+  padding: 10px 20px;
+  margin: 5px 0px;
+  color: #060a01;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+button:hover {
+  opacity: 1;
+  background-color: #060a01;
+  color: white;
+}
+
+footer {
+  background: #222;
+  color: #aaa;
+  padding-top: 10px;
+}
+footer a {
+  color: #aaa;
+}
+footer:hover {
+  color: #fff;
+}
+footer h3 {
+  color: #0894d1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+footer .three-column {
+  overflow: hidden;
+}
+footer .three-column li {
+  width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+footer .socila-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+footer .socila-list li {
+  float: left;
+  margin-right: 3px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+footer .socila-list:hover {
+  opacity: 1;
+}
+footer .img-thumbnail {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 100px;
+}
+footer .media img {
+  width: 64px;
+  height: 64px;
+}
+
+.copyright {
+  padding: 15px 0;
+  background: #333;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.copyright span {
+  color: #0894d1;
+}
+
+section {
+  position: relative;
+  z-index: 3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-header h2 {
+  color: #060a01;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.section-header p {
+  color: #060a01;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-info {
+  width: 50%;
+}
+
+.contact-info-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contact-info-icon {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.contact-info-icon i {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.contact-info-content {
+  margin-left: 20px;
+}
+
+.contact-info-content h4 {
+  color: #106eea;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+.contact-info-content p {
+  color: #060a01;
+  font-size: 1em;
+}
+
+.contact-form {
+  padding: 40px;
+  width: 45%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contact-form h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contact-form .input-box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box textarea:focus ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type=submit] {
+  width: 150px;
+  background: #106eea;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #00bcd4;
+}/*# sourceMappingURL=main.css.map */
